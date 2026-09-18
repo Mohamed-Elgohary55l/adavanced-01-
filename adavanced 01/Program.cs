@@ -61,16 +61,62 @@
             #endregion
 
 
-            #region Q 
+            #region  Q7: What is the 'struct' constraint? Write an example.
+            /*
+             generic type parameter to value types only
+             
+             ex: public class Box<T> where T : struct
+{
+             */
+
+            #endregion
+
+
+            #region Q8: What is the 'class' constraint? Write an example.
+            /*
+              generic type parameter to refrance types only
+             
+             ex: public class Box<T> where T : class
+{ 
+
+             */
+
+            #endregion
+
+            #region Q9 What is the 'new()' constraint? Write an example.
+            /*
+
+             equires that the type used for T have a public parameterless constructor
+                         ex: public class Box<T> where T : new()
+
+             */
+
+            #endregion
+
+            #region
 
 
             #endregion
 
 
-            #region Q 
+            #region
 
 
             #endregion
+
+
+            #region
+
+
+            #endregion
+
+
+            #region
+
+
+            #endregion
+
+
 
 
 
