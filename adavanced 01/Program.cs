@@ -134,6 +134,27 @@
             #endregion
 
 
+            #region Q13: What does the 'default' keyword do in generics?
+            /*
+             a keyword give the T the default value  
+             
+             */
+
+            #endregion
+
+
+            #region Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+
+            #endregion
+
+
+            #region
+
+
+            #endregion
+
+
             #region
 
 
