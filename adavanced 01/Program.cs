@@ -163,14 +163,29 @@
             #endregion
 
 
-            #region
-
+            #region Q16
+            /*
+             * 
+             * Contravariance allows you to use a less derived type (a more general base class) where 
+             * a more derived type (a more specific child class) is expected. 
+             * Use the in keyword to specify that the type parameter is used only as input (method parameter).
+             */
 
             #endregion
 
+            #region Q17
+            /*
+             * **Covariance** allows you to use a more derived type (a more specific child class) 
+             * where a less derived type (a more general base class) is expected. 
+             * Use the **out** keyword to specify that the type parameter is used only as output (return type).
 
 
+*        **Contravariance** allows you to use a less derived type (a more general base class) 
+*        where a more derived type (a more specific child class) is expected. 
+*        Use the **in** keyword to specify that the type parameter is used only as input (method parameter).
+             */
 
+            #endregion
 
         }
     }
