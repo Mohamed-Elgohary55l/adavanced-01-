@@ -144,14 +144,22 @@
 
 
             #region Q14: Write a SafeList<T> that returns default when the index is invalid.
-
+            /*
+             check Safelist class
+             */
 
             #endregion
 
 
-            #region
+            #region Q15: What is covariance? Explain the 'out' keyword.
 
-
+            /*
+             * Covariance allows you to use a more derived type (a more specific child class)
+             * where a less derived type (a more general base class) is expected.
+             
+             Use the out keyword to specify that the type parameter
+            is used only as output (return type).   
+             */
             #endregion
 
 
