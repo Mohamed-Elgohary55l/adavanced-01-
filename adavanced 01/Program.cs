@@ -37,9 +37,12 @@
              
             check pair class
              */
-            #region Q 
+            #region Q4: What is a generic method? Write Swap<T> method.
 
-
+            /*
+             generic method is a method can get any kind of data types
+             check  swap method in container class 
+             */
             #endregion
 
 

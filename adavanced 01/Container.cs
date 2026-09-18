@@ -21,5 +21,15 @@ namespace adavanced_01
 
             return l[index];
         }
+        public void  Swap <T1>(T1 first,T1 second)
+        {
+            T1 temp;
+            temp = first;
+            first = second;
+            second = temp;
+
+
+
+        }
     }
 }
