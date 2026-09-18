@@ -25,10 +25,18 @@
 
             #region Q2 Write a generic class Container<T> with Add and Get methods.
 
+            /*
+             check the class
+             */
+            #endregion Q3 What are multiple type parameters? Write Pair<TKey, TValue>.
 
-            #endregion
-
-
+            /*
+             
+             multiple type give you the flexability to write more than genaric type 
+            in the same class
+             
+            check pair class
+             */
             #region Q 
 
 
