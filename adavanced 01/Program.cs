@@ -93,21 +93,44 @@
 
             #endregion
 
-            #region
+            #region Q10: What is the interface constraint? Write an example.
+            /*
+             Constraints allow you to specify which types can be used as type
+               arguments for a generic type or method.
 
+            public class Factory<T> where T : new()
+{           or
+            public class Factory<T> where T : class
+{
+             
+             */
 
             #endregion
 
 
-            #region
+            #region Q11: What is the base class constraint? Write an example.
+            /*
+             
 
+            The base class constraint restricts a generic type parameter to 
+            specific class (or one of its subclasses)
+
+           ex: public class AnimalShelter<T> where T : Animal{-----}
+
+             
+             */
 
             #endregion
 
 
-            #region
+            #region Q12: How do you apply multiple constraints? Write an example.
 
-
+            /*
+             You apply multiple constraints by listing them after where T :, separated by commas.
+             
+            C# does enforce an order when certain constraint types are combined
+            ex: public class Repository<T> where T : class, IComparable, new()
+             */
             #endregion
 
 
